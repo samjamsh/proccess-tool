@@ -14,7 +14,7 @@ def parameters():
         pass # run the program in default mode
     
     elif arguments == 2:
-        program_help = f"""Windows Proccess Managment Tool Version 2.0 02/10/2022\nParameters Usage:\n   -cm: stands for COMPLETE MODE\n   complete_mode: COMPLETE MODE\n   -h or --help: shows this message\n\nProgram identificators:\n   pin: Proccess Identification Number\n   pid: Proccess ID or Proccess Identification\n   pn: Process Name (proccess name only without the extension)\n   pcn: Proccess Complete Name (complete name of the proccess)\n   apsn: All Programs Same Name (all programs with one/same name)\n   cm: complete mode usage (complete mode feature)\n\nExamples:\n    python3 {sys.argv[0]} : default usage\n    python3 {sys.argv[0]} -cm : complete mode option\n    python3 {sys.argv[0]} complete_mode : complete mode option\n"""
+        program_help = f"""Windows Proccess Managment Tool Version 2.1 02/10/2022\nParameters Usage:\n   -cm: stands for COMPLETE MODE\n   complete_mode: COMPLETE MODE\n   -h or --help: shows this message\n\nProgram identificators:\n   pin: Proccess Identification Number\n   pid: Proccess ID or Proccess Identification\n   pn: Process Name (proccess name only without the extension)\n   pcn: Proccess Complete Name (complete name of the proccess)\n   apsn: All Programs Same Name (all programs with one/same name)\n   cm: complete mode usage (complete mode feature)\n\nExamples:\n    python3 {sys.argv[0]} : default usage\n    python3 {sys.argv[0]} -cm : complete mode option\n    python3 {sys.argv[0]} complete_mode : complete mode option\n"""
         if argument[1] == "--help" or argument[1] == "-h":
             sys.exit(program_help)
 
